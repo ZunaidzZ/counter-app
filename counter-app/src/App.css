@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* App Container */
+  .app-container {
+    text-align: center;
+  }
+  
+  /* Heading */
+  .app-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1e293b;
+    margin-bottom: 2rem;
+  }
+  
+  /* Counter Container */
+  .counter-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+  }
+  
+  /* Count Display */
+  .count-display {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1e293b;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Buttons */
+  .button-group {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .button:hover {
+    transform: scale(1.05);
+  }
+  
+  .button:active {
+    transform: scale(0.95);
+  }
+  
+  .increment-button {
+    background-color: #3b82f6;
+  }
+  
+  .increment-button:hover {
+    background-color: #2563eb;
+  }
+  
+  .decrement-button {
+    background-color: #ef4444;
+  }
+  
+  .decrement-button:hover {
+    background-color: #dc2626;
+  }
+
+  .reset-button {
+    background-color: #6b7280;
+  }
+  
+  .reset-button:hover {
+    background-color: #4b5563;
+  }
